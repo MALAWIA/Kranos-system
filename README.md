@@ -1,11 +1,9 @@
+# Kranos-system
 
-  # Website Creation
+This is the automating websites source code for growing and automating businesses in Kenya.
 
-  This is a code bundle for Website Creation. The original project is available at https://www.figma.com/design/69bQ1OKcy2unMe7wSKoK8q/Website-Creation.
+## Running the code
 
-  ## Running the code
+Run `npm i` to install the dependencies.
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+Run `npm run dev` to start the development server.
