@@ -19,7 +19,7 @@ export function ContactPage() {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/254700000000?text=Hello, I would like to book a free Kranos.com automation audit', '_blank');
+    window.open('https://wa.me/254140373356?text=Hello, I would like to book a free Kranos.com automation audit', '_blank');
   };
 
   return (
