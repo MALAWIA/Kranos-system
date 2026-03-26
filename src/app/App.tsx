@@ -8,6 +8,7 @@ import { CRMServicePage, AIChatbotsPage, InventoryPage, WorkflowPage } from './p
 import { IndustriesPage, HowItWorksPage, CaseStudiesPage, ResourcesPage, PrivacyPolicyPage, TermsPage, SecurityPage } from './pages/OtherPages';
 import { ContactPage } from './pages/ContactPage';
 import { PricingPage } from './pages/PricingPage';
+import Admin from './pages/Admin';
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="/terms" element={<TermsPage />} />
             <Route path="/security" element={<SecurityPage />} />
+            <Route path="/admin" element={<Admin />} />
           </Routes>
         </main>
         <Footer />

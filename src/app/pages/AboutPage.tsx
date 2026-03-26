@@ -8,7 +8,7 @@ export function AboutPage() {
       <section className="bg-gradient-to-br from-blue-600 to-blue-800 py-20 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="mb-6 text-4xl md:text-5xl">About AutomateKE</h1>
+            <h1 className="mb-6 text-4xl md:text-5xl">About Kranos.com</h1>
             <p className="text-xl opacity-90">
               Kenya's leading business automation agency, helping SMEs and growing companies operate smarter, faster, and more profitably.
             </p>
@@ -23,7 +23,7 @@ export function AboutPage() {
             <div>
               <h2 className="mb-6 text-3xl md:text-4xl">Who We Are</h2>
               <p className="mb-4 text-lg text-gray-700">
-                AutomateKE is a Kenyan-based automation agency specializing in helping small and medium enterprises transform their operations through intelligent automation.
+                Kranos.com is a Kenyan-based automation agency specializing in helping small and medium enterprises transform their operations through intelligent automation.
               </p>
               <p className="mb-4 text-lg text-gray-700">
                 We understand the unique challenges facing Kenyan businesses – from manual data entry to lost leads and inefficient workflows. Our mission is to make enterprise-grade automation accessible and affordable for every growing business in Kenya.

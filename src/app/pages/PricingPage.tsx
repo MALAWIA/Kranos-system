@@ -5,7 +5,7 @@ export function PricingPage() {
   const plans = [
     {
       name: 'Starter',
-      price: 'KES 25,000',
+      price: 'KES 5,000',
       period: '/month',
       description: 'Perfect for small businesses just starting their automation journey',
       features: [
@@ -22,7 +22,7 @@ export function PricingPage() {
     },
     {
       name: 'Growth',
-      price: 'KES 75,000',
+      price: 'KES 20,000',
       period: '/month',
       description: 'For growing businesses ready to scale operations',
       features: [

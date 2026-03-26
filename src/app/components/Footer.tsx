@@ -3,7 +3,7 @@ import { MessageCircle, Mail, Phone, MapPin } from 'lucide-react';
 
 export function Footer() {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/254700000000?text=Hello, I would like to learn more about your automation services', '_blank');
+    window.open('https://wa.me/254140373356?text=Hello, I would like to learn more about your automation services', '_blank');
   };
 
   return (
@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">AutomateKE</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Kranos.com</h3>
             <p className="mb-4 text-sm">
               Kenya's leading business automation agency. We help SMEs, real estate firms, retail businesses, and service companies automate their operations.
             </p>
@@ -55,11 +55,11 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <Phone className="h-5 w-5 text-blue-500 flex-shrink-0" />
-                <span>+254 700 000 000</span>
+                <span>0140373356</span>
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="h-5 w-5 text-blue-500 flex-shrink-0" />
-                <span>info@automateke.co.ke</span>
+                <span>kranos098@gmail.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-blue-500 flex-shrink-0" />
@@ -72,7 +72,7 @@ export function Footer() {
         <div className="mt-12 border-t border-gray-800 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm">
-              © 2026 AutomateKE. All rights reserved.
+              © 2026 Kranos.com. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <Link to="/privacy-policy" className="hover:text-white transition-colors">

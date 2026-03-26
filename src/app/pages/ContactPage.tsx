@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
+import LeadForm from '../components/LeadForm';
 
 export function ContactPage() {
   const [formData, setFormData] = useState({
@@ -12,13 +13,13 @@ export function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, this would send to a backend
+    // This is now handled by LeadForm component
     alert('Thank you! We will contact you within 24 hours.');
     setFormData({ name: '', email: '', phone: '', company: '', message: '' });
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/254700000000?text=Hello, I would like to book a free automation audit', '_blank');
+    window.open('https://wa.me/254700000000?text=Hello, I would like to book a free Kranos.com automation audit', '_blank');
   };
 
   return (
@@ -29,7 +30,7 @@ export function ContactPage() {
           <div className="max-w-3xl">
             <h1 className="mb-6 text-4xl md:text-5xl">Get In Touch</h1>
             <p className="text-xl opacity-90">
-              Book your free automation audit or get answers to your questions
+              Book your free Kranos.com automation audit or get answers to your questions
             </p>
           </div>
         </div>
@@ -43,80 +44,9 @@ export function ContactPage() {
             <div>
               <h2 className="mb-6 text-3xl">Book a Free Consultation</h2>
               <p className="mb-8 text-lg text-gray-700">
-                Fill out the form below and we'll contact you within 24 hours to discuss your automation needs.
+                Fill out the form below and we'll contact you within 24 hours to discuss your Kranos.com automation needs.
               </p>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block mb-2 text-sm">
-                    Full Name *
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    required
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block mb-2 text-sm">
-                    Email Address *
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    required
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block mb-2 text-sm">
-                    Phone Number *
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    required
-                    value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="company" className="block mb-2 text-sm">
-                    Company Name
-                  </label>
-                  <input
-                    type="text"
-                    id="company"
-                    value={formData.company}
-                    onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                    className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block mb-2 text-sm">
-                    What would you like to automate? *
-                  </label>
-                  <textarea
-                    id="message"
-                    required
-                    rows={4}
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full rounded-md bg-blue-600 px-8 py-4 text-white transition-colors hover:bg-blue-700"
-                >
-                  Book Free Audit
-                </button>
-              </form>
+              <LeadForm />
             </div>
 
             {/* Contact Information */}
@@ -143,7 +73,7 @@ export function ContactPage() {
                     </div>
                     <div>
                       <h3 className="mb-2 text-xl">Email</h3>
-                      <p className="text-gray-700">info@automateke.co.ke</p>
+                      <p className="text-gray-700">info@kranos.com</p>
                       <p className="text-sm text-gray-600">We respond within 24 hours</p>
                     </div>
                   </div>

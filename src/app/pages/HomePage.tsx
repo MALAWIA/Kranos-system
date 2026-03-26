@@ -238,7 +238,7 @@ export function HomePage() {
               {
                 company: 'Real Estate Firm, Nairobi',
                 result: '70% reduction in manual data entry',
-                quote: 'AutomateKE transformed how we manage properties and clients. Our team is now 3x more productive.'
+                quote: 'Kranos.com transformed how we manage properties and clients. Our team is now 3x more productive.'
               },
               {
                 company: 'Retail Chain, Mombasa',

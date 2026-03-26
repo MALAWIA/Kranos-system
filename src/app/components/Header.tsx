@@ -18,7 +18,7 @@ export function Header() {
   ];
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/254700000000?text=Hello, I would like to learn more about your automation services', '_blank');
+    window.open('https://wa.me/254700000000?text=Hello, I would like to learn more about your automation services at info@kranos.com', '_blank');
   };
 
   return (
@@ -27,7 +27,7 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-bold text-blue-600">AutomateKE</span>
+            <span className="text-2xl font-bold text-blue-600">Kranos.com</span>
           </Link>
 
           {/* Desktop Navigation */}

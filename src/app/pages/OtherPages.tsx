@@ -119,7 +119,7 @@ export function CaseStudiesPage() {
             {
               company: 'Real Estate Firm, Nairobi',
               result: '70% reduction in manual data entry',
-              quote: 'AutomateKE transformed how we manage properties and clients.'
+              quote: 'Kranos.com transformed how we manage properties and clients.'
             },
             {
               company: 'Retail Chain, Mombasa',
@@ -180,13 +180,13 @@ export function PrivacyPolicyPage() {
         <div className="prose max-w-none">
           <p>Last updated: January 2026</p>
           <h2>1. Introduction</h2>
-          <p>AutomateKE ("we", "our", or "us") respects your privacy and is committed to protecting your personal data.</p>
+          <p>Kranos.com ("we", "our", or "us") respects your privacy and is committed to protecting your personal data.</p>
           <h2>2. Data Collection</h2>
           <p>We collect information you provide directly to us when you use our services, including contact information, business details, and usage data.</p>
           <h2>3. Data Security</h2>
           <p>We implement appropriate security measures to protect your data against unauthorized access, alteration, or disclosure.</p>
           <h2>4. Contact Us</h2>
-          <p>For privacy-related questions, contact us at info@automateke.co.ke</p>
+          <p>For privacy-related questions, contact us at kranos098@gmail.com</p>
         </div>
       </div>
     </div>
@@ -201,13 +201,13 @@ export function TermsPage() {
         <div className="prose max-w-none">
           <p>Last updated: January 2026</p>
           <h2>1. Agreement to Terms</h2>
-          <p>By using AutomateKE services, you agree to these terms and conditions.</p>
+          <p>By using Kranos.com services, you agree to these terms and conditions.</p>
           <h2>2. Services</h2>
           <p>We provide business automation solutions including CRM, chatbots, and workflow automation.</p>
           <h2>3. Payment Terms</h2>
           <p>Payment is required as per your chosen subscription plan. We accept M-Pesa, bank transfer, and credit cards.</p>
           <h2>4. Contact</h2>
-          <p>For questions about these terms, contact info@automateke.co.ke</p>
+          <p>For questions about these terms, contact kranos098@gmail.com</p>
         </div>
       </div>
     </div>
@@ -221,7 +221,7 @@ export function SecurityPage() {
         <h1 className="mb-8 text-4xl">Data Security & Compliance</h1>
         <div className="prose max-w-none">
           <h2>Our Commitment to Security</h2>
-          <p>At AutomateKE, we take data security seriously. All customer data is encrypted and stored securely.</p>
+          <p>At Kranos.com, we take data security seriously. All customer data is encrypted and stored securely.</p>
           <h2>Security Measures</h2>
           <ul>
             <li>End-to-end encryption for data transmission</li>
@@ -233,7 +233,7 @@ export function SecurityPage() {
           <h2>Compliance</h2>
           <p>We comply with the Kenya Data Protection Act and maintain high standards for data privacy and security.</p>
           <h2>Questions?</h2>
-          <p>For security questions, contact our team at security@automateke.co.ke</p>
+          <p>For security questions, contact our team at security@kranos.com</p>
         </div>
       </div>
     </div>
