@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">Kranos.com</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Kranos</h3>
             <p className="mb-4 text-sm">
               Kenya's leading business automation agency. We help SMEs, real estate firms, retail businesses, and service companies automate their operations.
             </p>
@@ -72,7 +72,7 @@ export function Footer() {
         <div className="mt-12 border-t border-gray-800 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm">
-              © 2026 Kranos.com. All rights reserved.
+              © 2026 Kranos. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <Link to="/privacy-policy" className="hover:text-white transition-colors">

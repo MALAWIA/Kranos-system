@@ -119,7 +119,7 @@ export function CaseStudiesPage() {
             {
               company: 'Real Estate Firm, Nairobi',
               result: '70% reduction in manual data entry',
-              quote: 'Kranos.com transformed how we manage properties and clients.'
+              quote: 'Kranos transformed how we manage properties and clients.'
             },
             {
               company: 'Retail Chain, Mombasa',
@@ -180,7 +180,7 @@ export function PrivacyPolicyPage() {
         <div className="prose max-w-none">
           <p>Last updated: January 2026</p>
           <h2>1. Introduction</h2>
-          <p>Kranos.com ("we", "our", or "us") respects your privacy and is committed to protecting your personal data.</p>
+          <p>Kranos ("we", "our", or "us") respects your privacy and is committed to protecting your personal data.</p>
           <h2>2. Data Collection</h2>
           <p>We collect information you provide directly to us when you use our services, including contact information, business details, and usage data.</p>
           <h2>3. Data Security</h2>
@@ -201,7 +201,7 @@ export function TermsPage() {
         <div className="prose max-w-none">
           <p>Last updated: January 2026</p>
           <h2>1. Agreement to Terms</h2>
-          <p>By using Kranos.com services, you agree to these terms and conditions.</p>
+          <p>By using Kranos services, you agree to these terms and conditions.</p>
           <h2>2. Services</h2>
           <p>We provide business automation solutions including CRM, chatbots, and workflow automation.</p>
           <h2>3. Payment Terms</h2>
@@ -221,7 +221,7 @@ export function SecurityPage() {
         <h1 className="mb-8 text-4xl">Data Security & Compliance</h1>
         <div className="prose max-w-none">
           <h2>Our Commitment to Security</h2>
-          <p>At Kranos.com, we take data security seriously. All customer data is encrypted and stored securely.</p>
+          <p>At Kranos, we take data security seriously. All customer data is encrypted and stored securely.</p>
           <h2>Security Measures</h2>
           <ul>
             <li>End-to-end encryption for data transmission</li>

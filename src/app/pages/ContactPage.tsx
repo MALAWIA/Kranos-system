@@ -19,7 +19,7 @@ export function ContactPage() {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/254140373356?text=Hello, I would like to book a free Kranos.com automation audit', '_blank');
+    window.open('https://wa.me/254140373356?text=Hello, I would like to book a free Kranos automation audit', '_blank');
   };
 
   return (
@@ -30,7 +30,7 @@ export function ContactPage() {
           <div className="max-w-3xl">
             <h1 className="mb-6 text-4xl md:text-5xl">Get In Touch</h1>
             <p className="text-xl opacity-90">
-              Book your free Kranos.com automation audit or get answers to your questions
+              Book your free Kranos automation audit or get answers to your questions
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ export function ContactPage() {
             <div>
               <h2 className="mb-6 text-3xl">Book a Free Consultation</h2>
               <p className="mb-8 text-lg text-gray-700">
-                Fill out the form below and we'll contact you within 24 hours to discuss your Kranos.com automation needs.
+                Fill out the form below and we'll contact you within 24 hours to discuss your Kranos automation needs.
               </p>
               <LeadForm />
             </div>

@@ -3,7 +3,7 @@ import { ArrowRight, CircleCheck, TrendingUp, DollarSign, Clock } from 'lucide-r
 
 export function HomePage() {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/254700000000?text=Hello, I would like to book a free automation audit', '_blank');
+    window.open('https://wa.me/254140373356?text=Hello, I would like to book a free automation audit', '_blank');
   };
 
   return (
@@ -238,7 +238,7 @@ export function HomePage() {
               {
                 company: 'Real Estate Firm, Nairobi',
                 result: '70% reduction in manual data entry',
-                quote: 'Kranos.com transformed how we manage properties and clients. Our team is now 3x more productive.'
+                quote: 'Kranos transformed how we manage properties and clients. Our team is now 3x more productive.'
               },
               {
                 company: 'Retail Chain, Mombasa',
